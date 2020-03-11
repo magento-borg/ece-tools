@@ -7,7 +7,8 @@
             <argument name="logger" xsi:type="object">Psr\Log\LoggerInterface</argument>
             <argument name="validators" xsi:type="array">
                 <item name="critical" xsi:type="array">
-                    <item name="composer" xsi:type="object" priority="100">Magento\MagentoCloud\Config\Validator\Build\ComposerFile</item>
+                   <!-- <item name="composer" xsi:type="object" priority="100">Magento\MagentoCloud\Config\Validator\Build\ComposerFile</item>-->
+		   
                     <item name="stage-config" xsi:type="object" priority="200">Magento\MagentoCloud\Config\Validator\Build\StageConfig</item>
                 </item>
                 <item name="warning" xsi:type="array">
